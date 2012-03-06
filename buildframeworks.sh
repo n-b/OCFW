@@ -1,14 +1,17 @@
 #!/bin/sh
 
+# The project must be configured this way
+XCODEPROJ_NAME="Framework.xcodeproj"
+LIBRARY_TARGET_NAME="Library"
+PLATFORMS_FILENAME="platforms"
+
+##
 # check params
-if [ ! -n "$1" ]
-	then
+if [ ! -n "$1" ]; then
 	echo "Usage : $0 [path/to/lib/directory]"
 	exit -1
 fi
-
-if [ ! -d $1 ]
-then
+if [ ! -d $1 ]; then
 	echo "$1 does not exist"
 	exit -2
 fi
@@ -17,28 +20,36 @@ fi
 OLDWD=`pwd`
 cd $1
 
-# internal variables
-SDKS="macosx iphoneos iphonesimulator"
-PLATFORMS="macos iphone"
-
-SYMROOT="build"
-PUBLIC_HEADERS_FOLDER_PATH="Headers"
-
-XCODEPROJ_NAME="Framework.xcodeproj"
-LIBRARY_TARGET_NAME="Library"
-
+##
 # find Xcode project to compile
 PROJECTS=(*.xcodeproj)
-if [ ! -d ${XCODEPROJ_NAME} ]
-	then
+if [ ! -d ${XCODEPROJ_NAME} ]; then
 	echo "There must be a project named ${XCODEPROJ_NAME} in `pwd`"
 	exit -1
 fi
 PROJECT=${PROJECTS[0]}
 
-# found
+
+## 
+# Find platforms to build for this library
+if [ -f platforms ]; then
+	PLATFORMS=`cat ${PLATFORMS_FILENAME}`; 
+else 
+	PLATFORMS="macosx iphone"
+fi
+if [ "$PLATFORMS" == *macosx* ]; then SDKS="macosx"; fi
+if [ "$PLATFORMS" == *iphone* ]; then SDKS=$SDKS"iphoneos iphonesimulator"; fi
+if [ "$PLATFORMS" != *iphone* ] && [ "$PLATFORMS" != *macosx* ]; then 
+	echo "platforms file in `pwd` must cant contain only \"macosx\" and \"iphone\""; 
+	exit -3
+fi
 LIBRARY=$(basename $(pwd))
-echo "building ${LIBRARY}"
+
+echo "building ${LIBRARY} for platforms : ${PLATFORMS}"
+
+# internal constants
+SYMROOT="build"
+PUBLIC_HEADERS_FOLDER_PATH="Headers"
 
 # Compile
 for SDK in $SDKS
@@ -80,9 +91,9 @@ do
 	echo "  ${FRAMEWORK_PATH}"
 done
 
+##
 # cleanup
-if [ $OLDWD ]
-	then
+if [ $OLDWD ]; then
 	cd $OLDWD
 fi
 exit 0

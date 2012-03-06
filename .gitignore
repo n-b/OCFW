@@ -1,2 +1,4 @@
 */build
 *.xcuserdatad/
+*/macosx/*
+*/iphone/*
