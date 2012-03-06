@@ -1,3 +1,6 @@
 [submodule "CocoaHTTPServer/CocoaHTTPServer"]
 	path = CocoaHTTPServer/CocoaHTTPServer
 	url = git://github.com/robbiehanson/CocoaHTTPServer.git
+[submodule "WEPopover/WEPopover"]
+	path = WEPopover/WEPopover
+	url = git://github.com/werner77/WEPopover.git

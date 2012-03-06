@@ -37,10 +37,12 @@ if [ -f platforms ]; then
 else 
 	PLATFORMS="macosx iphone"
 fi
-if [ "$PLATFORMS" == *macosx* ]; then SDKS="macosx"; fi
-if [ "$PLATFORMS" == *iphone* ]; then SDKS=$SDKS"iphoneos iphonesimulator"; fi
-if [ "$PLATFORMS" != *iphone* ] && [ "$PLATFORMS" != *macosx* ]; then 
-	echo "platforms file in `pwd` must cant contain only \"macosx\" and \"iphone\""; 
+
+if [[ "$PLATFORMS" == *macosx* ]]; then SDKS="macosx"; fi
+if [[ "$PLATFORMS" == *iphone* ]]; then SDKS=$SDKS "iphoneos iphonesimulator"; fi
+
+if [[ "$PLATFORMS" != *iphone* ]] && [[ "$PLATFORMS" != *macosx* ]]; then 
+	echo "platforms file in `pwd` must contain only \"macosx\" and \"iphone\""; 
 	exit -3
 fi
 LIBRARY=$(basename $(pwd))
