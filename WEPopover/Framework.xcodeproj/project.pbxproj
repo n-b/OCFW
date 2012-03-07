@@ -203,7 +203,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 378958E41506081F003BD8FB /* Build configuration list for PBXProject "WEPopover" */;
+			buildConfigurationList = 378958E41506081F003BD8FB /* Build configuration list for PBXProject "Framework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -271,18 +271,12 @@
 		37137EE515068F2A009513B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		37137EE615068F2A009513B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -330,8 +324,9 @@
 				37137EE615068F2A009513B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		378958E41506081F003BD8FB /* Build configuration list for PBXProject "WEPopover" */ = {
+		378958E41506081F003BD8FB /* Build configuration list for PBXProject "Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3789590E15060820003BD8FB /* Debug */,
