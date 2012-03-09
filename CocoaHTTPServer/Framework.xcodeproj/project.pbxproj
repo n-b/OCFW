@@ -109,7 +109,7 @@
 		378959521506089D003BD8FB /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
 		378959531506089D003BD8FB /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
 		378959541506089D003BD8FB /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		378959C415060B6A003BD8FB /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaHTTPServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		378959C415060B6A003BD8FB /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 		378958EB15060820003BD8FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				378959C415060B6A003BD8FB /* libCocoaHTTPServer.a */,
+				378959C415060B6A003BD8FB /* lib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 			);
 			name = Library;
 			productName = CocoaHTTPServer;
-			productReference = 378959C415060B6A003BD8FB /* libCocoaHTTPServer.a */;
+			productReference = 378959C415060B6A003BD8FB /* lib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -395,6 +395,7 @@
 		3789590F15060820003BD8FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";

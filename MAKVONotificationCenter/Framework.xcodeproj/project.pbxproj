@@ -126,6 +126,7 @@
 		3789590E15060820003BD8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
@@ -135,6 +136,8 @@
 		3789590F15060820003BD8FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";

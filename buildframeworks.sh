@@ -79,8 +79,7 @@ do
         PUBLIC_HEADERS_FOLDER_PATH=${PUBLIC_HEADERS_FOLDER_PATH}\
         SYMROOT=${SYMROOT}\
 		CONFIGURATION_BUILD_DIR=${SYMROOT}/${LIBRARY}/${SDK}\
-        ARCHS=\$VALID_ARCHS\
-			> ${LOGFILE}
+ 			> ${LOGFILE}
 	if [ $? -ne 0 ]; then cat ${LOGFILE}; exit 1; fi
 	
 	# copy resources, if any
