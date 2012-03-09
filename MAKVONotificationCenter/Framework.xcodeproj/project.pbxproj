@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372ABE35150A3D74004A6CD8 /* MAKVONotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 372ABE33150A3D74004A6CD8 /* MAKVONotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372ABE36150A3D74004A6CD8 /* MAKVONotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 372ABE34150A3D74004A6CD8 /* MAKVONotificationCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		372ABE33150A3D74004A6CD8 /* MAKVONotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAKVONotificationCenter.h; path = MAKVONotificationCenter/MAKVONotificationCenter.h; sourceTree = "<group>"; };
+		372ABE34150A3D74004A6CD8 /* MAKVONotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAKVONotificationCenter.m; path = MAKVONotificationCenter/MAKVONotificationCenter.m; sourceTree = "<group>"; };
+		378958F215060820003BD8FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		378959C415060B6A003BD8FB /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378959A615060B6A003BD8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378958DF1506081F003BD8FB = {
+			isa = PBXGroup;
+			children = (
+				372ABE33150A3D74004A6CD8 /* MAKVONotificationCenter.h */,
+				372ABE34150A3D74004A6CD8 /* MAKVONotificationCenter.m */,
+				378958EC15060820003BD8FB /* Frameworks */,
+				378958EB15060820003BD8FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378958EB15060820003BD8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378959C415060B6A003BD8FB /* lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378958EC15060820003BD8FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				378958F215060820003BD8FB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		378959A715060B6A003BD8FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372ABE35150A3D74004A6CD8 /* MAKVONotificationCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3789598D15060B6A003BD8FB /* Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378959C115060B6A003BD8FB /* Build configuration list for PBXNativeTarget "Library" */;
+			buildPhases = (
+				3789598E15060B6A003BD8FB /* Sources */,
+				378959A615060B6A003BD8FB /* Frameworks */,
+				378959A715060B6A003BD8FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library;
+			productName = CocoaHTTPServer;
+			productReference = 378959C415060B6A003BD8FB /* lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378958E11506081F003BD8FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 378958E41506081F003BD8FB /* Build configuration list for PBXProject "Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 378958DF1506081F003BD8FB;
+			productRefGroup = 378958EB15060820003BD8FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3789598D15060B6A003BD8FB /* Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3789598E15060B6A003BD8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372ABE36150A3D74004A6CD8 /* MAKVONotificationCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3789590E15060820003BD8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+			};
+			name = Debug;
+		};
+		3789590F15060820003BD8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+			};
+			name = Release;
+		};
+		378959C215060B6A003BD8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		378959C315060B6A003BD8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378958E41506081F003BD8FB /* Build configuration list for PBXProject "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3789590E15060820003BD8FB /* Debug */,
+				3789590F15060820003BD8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378959C115060B6A003BD8FB /* Build configuration list for PBXNativeTarget "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378959C215060B6A003BD8FB /* Debug */,
+				378959C315060B6A003BD8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378958E11506081F003BD8FB /* Project object */;
+}

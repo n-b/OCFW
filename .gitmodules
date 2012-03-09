@@ -4,3 +4,6 @@
 [submodule "WEPopover/WEPopover"]
 	path = WEPopover/WEPopover
 	url = git://github.com/werner77/WEPopover.git
+[submodule "MAKVONotificationCenter/MAKVONotificationCenter"]
+	path = MAKVONotificationCenter/MAKVONotificationCenter
+	url = git://github.com/mikeash/MAKVONotificationCenter.git
