@@ -1,5 +1,4 @@
 #!/bin/sh
-set -e
 
 # The project must be configured this way
 XCODEPROJ_NAME="Framework.xcodeproj"
@@ -80,8 +79,8 @@ do
         SYMROOT=${SYMROOT}\
 		CONFIGURATION_BUILD_DIR=${SYMROOT}/${LIBRARY}/${SDK}\
 		OTHER_LDFLAGS=-ObjC\
- 			> ${LOGFILE}
-	if [ $? -ne 0 ]; then cat ${LOGFILE}; exit 1; fi
+ 			&> ${LOGFILE}
+	if [ $? -ne 0 ]; then echo "wtf?"; cat ${LOGFILE}; exit 1; fi
 	
 	# copy resources, if any
 	if [ $COPY_RESOURCES ]; then
@@ -95,7 +94,7 @@ do
 			WRAPPER_EXTENSION=${RESOURCES_TARGET_NAME}\
 	        SYMROOT=${SYMROOT}\
 			CONFIGURATION_BUILD_DIR=${SYMROOT}/${LIBRARY}/${SDK}\
-				> ${LOGFILE}
+				&> ${LOGFILE}
 		if [ $? -ne 0 ]; then cat ${LOGFILE}; exit 1; fi
 	fi
 done
