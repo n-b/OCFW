@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37D16DB71513F83900340A73 /* FormattedStringToDateValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D16DB21513F83900340A73 /* FormattedStringToDateValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D16DB81513F83900340A73 /* FormattedStringToDateValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D16DB31513F83900340A73 /* FormattedStringToDateValueTransformer.m */; };
+		37D16DBA1513F83900340A73 /* NSObject+KVCMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D16DB51513F83900340A73 /* NSObject+KVCMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D16DBB1513F83900340A73 /* NSObject+KVCMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D16DB61513F83900340A73 /* NSObject+KVCMapping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		378958F215060820003BD8FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		378959C415060B6A003BD8FB /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A160521513FAC60058600E /* KVCMapping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KVCMapping-Prefix.pch"; path = "KVCMapping/KVCMapping/KVCMapping-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		37D16DB21513F83900340A73 /* FormattedStringToDateValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattedStringToDateValueTransformer.h; sourceTree = "<group>"; };
+		37D16DB31513F83900340A73 /* FormattedStringToDateValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattedStringToDateValueTransformer.m; sourceTree = "<group>"; };
+		37D16DB51513F83900340A73 /* NSObject+KVCMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVCMapping.h"; sourceTree = "<group>"; };
+		37D16DB61513F83900340A73 /* NSObject+KVCMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVCMapping.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378959A615060B6A003BD8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378958DF1506081F003BD8FB = {
+			isa = PBXGroup;
+			children = (
+				37D16DB11513F83900340A73 /* KVCMapping */,
+				378958EC15060820003BD8FB /* Frameworks */,
+				378958EB15060820003BD8FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378958EB15060820003BD8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378959C415060B6A003BD8FB /* lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378958EC15060820003BD8FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				378958F215060820003BD8FB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37D16DB11513F83900340A73 /* KVCMapping */ = {
+			isa = PBXGroup;
+			children = (
+				37A160521513FAC60058600E /* KVCMapping-Prefix.pch */,
+				37D16DB21513F83900340A73 /* FormattedStringToDateValueTransformer.h */,
+				37D16DB31513F83900340A73 /* FormattedStringToDateValueTransformer.m */,
+				37D16DB51513F83900340A73 /* NSObject+KVCMapping.h */,
+				37D16DB61513F83900340A73 /* NSObject+KVCMapping.m */,
+			);
+			name = KVCMapping;
+			path = KVCMapping/KVCMapping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		378959A715060B6A003BD8FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D16DB71513F83900340A73 /* FormattedStringToDateValueTransformer.h in Headers */,
+				37D16DBA1513F83900340A73 /* NSObject+KVCMapping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3789598D15060B6A003BD8FB /* Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378959C115060B6A003BD8FB /* Build configuration list for PBXNativeTarget "Library" */;
+			buildPhases = (
+				3789598E15060B6A003BD8FB /* Sources */,
+				378959A615060B6A003BD8FB /* Frameworks */,
+				378959A715060B6A003BD8FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library;
+			productName = CocoaHTTPServer;
+			productReference = 378959C415060B6A003BD8FB /* lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378958E11506081F003BD8FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 378958E41506081F003BD8FB /* Build configuration list for PBXProject "Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 378958DF1506081F003BD8FB;
+			productRefGroup = 378958EB15060820003BD8FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3789598D15060B6A003BD8FB /* Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3789598E15060B6A003BD8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D16DB81513F83900340A73 /* FormattedStringToDateValueTransformer.m in Sources */,
+				37D16DBB1513F83900340A73 /* NSObject+KVCMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3789590E15060820003BD8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+			};
+			name = Debug;
+		};
+		3789590F15060820003BD8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+			};
+			name = Release;
+		};
+		378959C215060B6A003BD8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVCMapping/KVCMapping/KVCMapping-Prefix.pch";
+			};
+			name = Debug;
+		};
+		378959C315060B6A003BD8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVCMapping/KVCMapping/KVCMapping-Prefix.pch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378958E41506081F003BD8FB /* Build configuration list for PBXProject "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3789590E15060820003BD8FB /* Debug */,
+				3789590F15060820003BD8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378959C115060B6A003BD8FB /* Build configuration list for PBXNativeTarget "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378959C215060B6A003BD8FB /* Debug */,
+				378959C315060B6A003BD8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378958E11506081F003BD8FB /* Project object */;
+}

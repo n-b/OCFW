@@ -7,3 +7,6 @@
 [submodule "MAKVONotificationCenter/MAKVONotificationCenter"]
 	path = MAKVONotificationCenter/MAKVONotificationCenter
 	url = git://github.com/mikeash/MAKVONotificationCenter.git
+[submodule "KVCMapping/KVCMapping"]
+	path = KVCMapping/KVCMapping
+	url = git://github.com/n-b/KVCMapping.git
