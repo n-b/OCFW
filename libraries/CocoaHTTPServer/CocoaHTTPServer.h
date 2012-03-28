@@ -7,7 +7,6 @@
 #import <CocoaHTTPServer/HTTPDataResponse.h>
 #import <CocoaHTTPServer/HTTPDynamicFileResponse.h>
 #import <CocoaHTTPServer/HTTPFileResponse.h>
-#import <CocoaHTTPServer/HTTPLogging.h>
 #import <CocoaHTTPServer/HTTPMessage.h>
 #import <CocoaHTTPServer/HTTPRedirectResponse.h>
 #import <CocoaHTTPServer/HTTPResponse.h>

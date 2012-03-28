@@ -35,7 +35,7 @@
 		378959AA15060B6A003BD8FB /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959211506089D003BD8FB /* DDRange.h */; };
 		378959AB15060B6A003BD8FB /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959231506089D003BD8FB /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		378959AC15060B6A003BD8FB /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959251506089D003BD8FB /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		378959AD15060B6A003BD8FB /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959271506089D003BD8FB /* HTTPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378959AD15060B6A003BD8FB /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959271506089D003BD8FB /* HTTPLogging.h */; settings = {ATTRIBUTES = (); }; };
 		378959AE15060B6A003BD8FB /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959281506089D003BD8FB /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		378959AF15060B6A003BD8FB /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3789592A1506089D003BD8FB /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		378959B015060B6A003BD8FB /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3789592B1506089D003BD8FB /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -284,7 +284,6 @@
 				378959AA15060B6A003BD8FB /* DDRange.h in Headers */,
 				378959AB15060B6A003BD8FB /* HTTPAuthenticationRequest.h in Headers */,
 				378959AC15060B6A003BD8FB /* HTTPConnection.h in Headers */,
-				378959AD15060B6A003BD8FB /* HTTPLogging.h in Headers */,
 				378959AE15060B6A003BD8FB /* HTTPMessage.h in Headers */,
 				378959AF15060B6A003BD8FB /* HTTPResponse.h in Headers */,
 				378959B015060B6A003BD8FB /* HTTPServer.h in Headers */,
@@ -296,6 +295,7 @@
 				378959B615060B6A003BD8FB /* WebSocket.h in Headers */,
 				378959B715060B6A003BD8FB /* DAVConnection.h in Headers */,
 				378959B815060B6A003BD8FB /* DAVResponse.h in Headers */,
+				378959AD15060B6A003BD8FB /* HTTPLogging.h in Headers */,
 				378959B915060B6A003BD8FB /* DELETEResponse.h in Headers */,
 				378959BA15060B6A003BD8FB /* PUTResponse.h in Headers */,
 				378959BB15060B6A003BD8FB /* GCDAsyncSocket.h in Headers */,
