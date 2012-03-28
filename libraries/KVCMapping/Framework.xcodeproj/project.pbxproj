@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378AA5B41523304F00D4582C /* KVCMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 378AA5B31523304F00D4582C /* KVCMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37D16DB71513F83900340A73 /* FormattedStringToDateValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D16DB21513F83900340A73 /* FormattedStringToDateValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37D16DB81513F83900340A73 /* FormattedStringToDateValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D16DB31513F83900340A73 /* FormattedStringToDateValueTransformer.m */; };
 		37D16DBA1513F83900340A73 /* NSObject+KVCMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D16DB51513F83900340A73 /* NSObject+KVCMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +17,7 @@
 /* Begin PBXFileReference section */
 		378958F215060820003BD8FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		378959C415060B6A003BD8FB /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		378AA5B31523304F00D4582C /* KVCMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCMapping.h; sourceTree = "<group>"; };
 		37A160521513FAC60058600E /* KVCMapping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KVCMapping-Prefix.pch"; path = "KVCMapping/KVCMapping/KVCMapping-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		37D16DB21513F83900340A73 /* FormattedStringToDateValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattedStringToDateValueTransformer.h; sourceTree = "<group>"; };
 		37D16DB31513F83900340A73 /* FormattedStringToDateValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattedStringToDateValueTransformer.m; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 		378958DF1506081F003BD8FB = {
 			isa = PBXGroup;
 			children = (
+				378AA5B31523304F00D4582C /* KVCMapping.h */,
 				37D16DB11513F83900340A73 /* KVCMapping */,
 				378958EC15060820003BD8FB /* Frameworks */,
 				378958EB15060820003BD8FB /* Products */,
@@ -81,6 +84,7 @@
 			files = (
 				37D16DB71513F83900340A73 /* FormattedStringToDateValueTransformer.h in Headers */,
 				37D16DBA1513F83900340A73 /* NSObject+KVCMapping.h in Headers */,
+				378AA5B41523304F00D4582C /* KVCMapping.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
