@@ -10,3 +10,6 @@
 [submodule "KVCMapping/KVCMapping"]
 	path = libraries/KVCMapping/KVCMapping
 	url = git://github.com/n-b/KVCMapping.git
+[submodule "libraries/OCMock/OCMock"]
+	path = libraries/OCMock/OCMock
+	url = git://github.com/erikdoe/ocmock.git
