@@ -49,7 +49,7 @@
 		378959B815060B6A003BD8FB /* DAVResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3789593E1506089D003BD8FB /* DAVResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		378959B915060B6A003BD8FB /* DELETEResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959401506089D003BD8FB /* DELETEResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		378959BA15060B6A003BD8FB /* PUTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959421506089D003BD8FB /* PUTResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		378959BB15060B6A003BD8FB /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959471506089D003BD8FB /* GCDAsyncSocket.h */; };
+		378959BB15060B6A003BD8FB /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 378959471506089D003BD8FB /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		378959BC15060B6A003BD8FB /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3789594B1506089D003BD8FB /* DDAbstractDatabaseLogger.h */; };
 		378959BD15060B6A003BD8FB /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3789594D1506089D003BD8FB /* DDASLLogger.h */; };
 		378959BE15060B6A003BD8FB /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3789594F1506089D003BD8FB /* DDFileLogger.h */; };
@@ -294,11 +294,11 @@
 				378959B515060B6A003BD8FB /* HTTPRedirectResponse.h in Headers */,
 				378959B615060B6A003BD8FB /* WebSocket.h in Headers */,
 				378959B715060B6A003BD8FB /* DAVConnection.h in Headers */,
+				378959BB15060B6A003BD8FB /* GCDAsyncSocket.h in Headers */,
 				378959B815060B6A003BD8FB /* DAVResponse.h in Headers */,
 				378959AD15060B6A003BD8FB /* HTTPLogging.h in Headers */,
 				378959B915060B6A003BD8FB /* DELETEResponse.h in Headers */,
 				378959BA15060B6A003BD8FB /* PUTResponse.h in Headers */,
-				378959BB15060B6A003BD8FB /* GCDAsyncSocket.h in Headers */,
 				378959BC15060B6A003BD8FB /* DDAbstractDatabaseLogger.h in Headers */,
 				378959BD15060B6A003BD8FB /* DDASLLogger.h in Headers */,
 				378959BE15060B6A003BD8FB /* DDFileLogger.h in Headers */,
