@@ -1,15 +1,15 @@
 [submodule "CocoaHTTPServer/CocoaHTTPServer"]
 	path = libraries/CocoaHTTPServer/CocoaHTTPServer
-	url = git://github.com/robbiehanson/CocoaHTTPServer.git
+	url = https://github.com/robbiehanson/CocoaHTTPServer.git
 [submodule "WEPopover/WEPopover"]
 	path = libraries/WEPopover/WEPopover
-	url = git://github.com/werner77/WEPopover.git
+	url = https://github.com/werner77/WEPopover.git
 [submodule "MAKVONotificationCenter/MAKVONotificationCenter"]
 	path = libraries/MAKVONotificationCenter/MAKVONotificationCenter
-	url = git://github.com/mikeash/MAKVONotificationCenter.git
+	url = https://github.com/mikeash/MAKVONotificationCenter.git
 [submodule "KVCMapping/KVCMapping"]
 	path = libraries/KVCMapping/KVCMapping
-	url = git://github.com/n-b/KVCMapping.git
+	url = https://github.com/n-b/KVCMapping.git
 [submodule "libraries/OCMock/OCMock"]
 	path = libraries/OCMock/OCMock
-	url = git://github.com/erikdoe/ocmock.git
+	url = https://github.com/erikdoe/ocmock.git
