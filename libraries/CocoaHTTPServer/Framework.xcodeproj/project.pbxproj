@@ -24,7 +24,7 @@
 		3789599D15060B6A003BD8FB /* DAVResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789593F1506089D003BD8FB /* DAVResponse.m */; };
 		3789599E15060B6A003BD8FB /* DELETEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 378959411506089D003BD8FB /* DELETEResponse.m */; };
 		3789599F15060B6A003BD8FB /* PUTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 378959431506089D003BD8FB /* PUTResponse.m */; };
-		378959A015060B6A003BD8FB /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 378959481506089D003BD8FB /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		378959A015060B6A003BD8FB /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 378959481506089D003BD8FB /* GCDAsyncSocket.m */; };
 		378959A115060B6A003BD8FB /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789594C1506089D003BD8FB /* DDAbstractDatabaseLogger.m */; };
 		378959A215060B6A003BD8FB /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789594E1506089D003BD8FB /* DDASLLogger.m */; };
 		378959A315060B6A003BD8FB /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 378959501506089D003BD8FB /* DDFileLogger.m */; };
