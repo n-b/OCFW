@@ -58,6 +58,8 @@
 		3766034A1529C772005C58DC /* OCObserverMockObjectTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 376603341529C772005C58DC /* OCObserverMockObjectTests.h */; };
 		37C3975B1593586E00933A23 /* OCMockClassObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C397591593586E00933A23 /* OCMockClassObject.h */; };
 		37C3975C1593586E00933A23 /* OCMockClassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C3975A1593586E00933A23 /* OCMockClassObject.m */; };
+		37C39763159358F800933A23 /* OCClassMockRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C39761159358F800933A23 /* OCClassMockRecorder.h */; };
+		37C39764159358F800933A23 /* OCClassMockRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C39762159358F800933A23 /* OCClassMockRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +116,8 @@
 		378959C415060B6A003BD8FB /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C397591593586E00933A23 /* OCMockClassObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockClassObject.h; path = OCMock/Source/OCMock/OCMockClassObject.h; sourceTree = "<group>"; };
 		37C3975A1593586E00933A23 /* OCMockClassObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCMockClassObject.m; path = OCMock/Source/OCMock/OCMockClassObject.m; sourceTree = "<group>"; };
+		37C39761159358F800933A23 /* OCClassMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCClassMockRecorder.h; path = OCMock/Source/OCMock/OCClassMockRecorder.h; sourceTree = "<group>"; };
+		37C39762159358F800933A23 /* OCClassMockRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCClassMockRecorder.m; path = OCMock/Source/OCMock/OCClassMockRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 				3766031F1529C772005C58DC /* NSInvocation+OCMAdditions.h */,
 				376603201529C772005C58DC /* NSMethodSignature+OCMAdditions.h */,
 				376603211529C772005C58DC /* OCClassMockObject.h */,
+				37C39761159358F800933A23 /* OCClassMockRecorder.h */,
 				376603221529C772005C58DC /* OCMBlockCaller.h */,
 				376603231529C772005C58DC /* OCMBoxedReturnValueProvider.h */,
 				376603241529C772005C58DC /* OCMExceptionReturnValueProvider.h */,
@@ -163,6 +168,7 @@
 				376602EA1529C74A005C58DC /* NSMethodSignature+OCMAdditions.m */,
 				376602EB1529C74A005C58DC /* NSNotificationCenter+OCMAdditions.m */,
 				376602EC1529C74A005C58DC /* OCClassMockObject.m */,
+				37C39762159358F800933A23 /* OCClassMockRecorder.m */,
 				376602ED1529C74A005C58DC /* OCMArg.m */,
 				376602EE1529C74A005C58DC /* OCMBlockCaller.m */,
 				376602EF1529C74A005C58DC /* OCMBoxedReturnValueProvider.m */,
@@ -238,6 +244,7 @@
 				376603491529C772005C58DC /* OCMockRecorderTests.h in Headers */,
 				3766034A1529C772005C58DC /* OCObserverMockObjectTests.h in Headers */,
 				37C3975B1593586E00933A23 /* OCMockClassObject.h in Headers */,
+				37C39763159358F800933A23 /* OCClassMockRecorder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +320,7 @@
 				376603111529C74A005C58DC /* OCPartialMockRecorder.m in Sources */,
 				376603121529C74A005C58DC /* OCProtocolMockObject.m in Sources */,
 				37C3975C1593586E00933A23 /* OCMockClassObject.m in Sources */,
+				37C39764159358F800933A23 /* OCClassMockRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
